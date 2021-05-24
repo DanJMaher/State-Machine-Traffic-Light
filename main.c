@@ -37,17 +37,17 @@ struct State{
 
 
 struct State TrafficState[11] = {
-	{0x0C, 0x02, 1000, 	{GoWest, GoWest, WaitWest, WaitWest, WaitWest, WaitWest, WaitWest, WaitWest}},
-	{0x14, 0x02, 500, 	{GoSouth, GoSouth, GoSouth, GoSouth, Walk, Walk, Walk, Walk}},
-	{0x21, 0x02, 1000, 	{GoSouth, WaitSouth, GoSouth, WaitSouth, WaitSouth, WaitSouth, WaitSouth, WaitSouth}},
-	{0x22, 0x02, 500, 	{GoWest, GoWest, GoWest, GoWest, Walk, Walk, Walk, Walk}},
-	{0x24, 0x08, 1000, 	{DontWalkOn0, DontWalkOn0, DontWalkOn0, DontWalkOn0, DontWalkOn0, DontWalkOn0, DontWalkOn0, DontWalkOn0}},
-	{0x24, 0x02, 200, 	{DontWalkOff0, DontWalkOff0, DontWalkOff0, DontWalkOff0, DontWalkOff0, DontWalkOff0, DontWalkOff0, DontWalkOff0}},
-	{0x24, 0x00, 200, 	{DontWalkOn1, DontWalkOn1, DontWalkOn1, DontWalkOn1, DontWalkOn1, DontWalkOn1, DontWalkOn1, DontWalkOn1}},
-	{0x24, 0x02, 200, 	{DontWalkOff1, DontWalkOff1, DontWalkOff1, DontWalkOff1, DontWalkOff1, DontWalkOff1, DontWalkOff1, DontWalkOff1}},
-	{0x24, 0x00, 200,	 	{DontWalkOn2, DontWalkOn2, DontWalkOn2, DontWalkOn2, DontWalkOn2, DontWalkOn2, DontWalkOn2, DontWalkOn2}},
-	{0x24, 0x02, 200, 	{DontWalkOff2, DontWalkOff2, DontWalkOff2, DontWalkOff2, DontWalkOff2, DontWalkOff2, DontWalkOff2, DontWalkOff2}},
-	{0x24, 0x00, 200,		{GoWest, GoWest, GoSouth, GoWest, GoWest, GoWest, GoSouth, GoWest}},
+	{0x0C, 0x02, 1000, {GoWest, GoWest, WaitWest, WaitWest, WaitWest, WaitWest, WaitWest, WaitWest}},
+	{0x14, 0x02, 500, {GoSouth, GoSouth, GoSouth, GoSouth, Walk, Walk, Walk, Walk}},
+	{0x21, 0x02, 1000, {GoSouth, WaitSouth, GoSouth, WaitSouth, WaitSouth, WaitSouth, WaitSouth, WaitSouth}},
+	{0x22, 0x02, 500, {GoWest, GoWest, GoWest, GoWest, Walk, Walk, Walk, Walk}},
+	{0x24, 0x08, 1000, {DontWalkOn0, DontWalkOn0, DontWalkOn0, DontWalkOn0, DontWalkOn0, DontWalkOn0, DontWalkOn0, DontWalkOn0}},
+	{0x24, 0x02, 200, {DontWalkOff0, DontWalkOff0, DontWalkOff0, DontWalkOff0, DontWalkOff0, DontWalkOff0, DontWalkOff0, DontWalkOff0}},
+	{0x24, 0x00, 200, {DontWalkOn1, DontWalkOn1, DontWalkOn1, DontWalkOn1, DontWalkOn1, DontWalkOn1, DontWalkOn1, DontWalkOn1}},
+	{0x24, 0x02, 200, {DontWalkOff1, DontWalkOff1, DontWalkOff1, DontWalkOff1, DontWalkOff1, DontWalkOff1, DontWalkOff1, DontWalkOff1}},
+	{0x24, 0x00, 200, {DontWalkOn2, DontWalkOn2, DontWalkOn2, DontWalkOn2, DontWalkOn2, DontWalkOn2, DontWalkOn2, DontWalkOn2}},
+	{0x24, 0x02, 200, {DontWalkOff2, DontWalkOff2, DontWalkOff2, DontWalkOff2, DontWalkOff2, DontWalkOff2, DontWalkOff2, DontWalkOff2}},
+	{0x24, 0x00, 200, {GoWest, GoWest, GoSouth, GoWest, GoWest, GoWest, GoSouth, GoWest}},
 };
 
 unsigned long index = 0;
